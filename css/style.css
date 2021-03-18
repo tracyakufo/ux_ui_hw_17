@@ -16,7 +16,7 @@
 
 }
 a {
-    padding: 1%;
+    padding: 1.5%;
     color: #671449;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -26,45 +26,47 @@ a {
 .herospace {
     display: flex;
     flex-flow:row wrap;
-    border: red 1px solid;
-    justify-content:flex-start;
+    justify-content:center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    width:100%;
+    margin-top:20px;
 }
 .heroimage {
     display: flex;
     flex-flow: column;
     align-self: flex-start;
     vertical-align: middle;
-    border: green 1px solid;
-    margin: 5px 50px 5px 50px;
+    margin: 5px 10px 5px 10px;
 }
 .herotext {
     display: flex;
     flex-flow: column;
     align-self: flex-end;
-    border: blue 1px solid;
-    margin: 10px -10px 40px 10px;
+    margin: 10px -10px 10px 10px;
 }
 
 h1 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 80px;
+    font-family: 'Source Sans Pro' , sans-serif;
+    font-size: 100px;
     font-weight: bolder;
     color: #671449;
     margin-bottom: -2%;
+    margin-top:-5%
 }
 
 h2 {
- font-family: Arial, Helvetica, sans-serif;
- font-size:20px;
- font-weight:lighter;
+ font-family:'Source Sans Pro' , sans-serif;
+ font-size:30px;
+ font-weight:normal;
  color: #671449;
  margin-bottom: -2%;
 }
 
 h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:20px;
-    font-weight: normal;
+    font-family:'Source Sans Pro' , sans-serif;
+    font-size:30px;
+    font-weight: lighter;
     color:#0D3442;
 }
 
@@ -75,5 +77,8 @@ button {
     width: 200px;
     border: none;
     font-size: 20px;
+    font-family:'Source Sans Pro' , sans-serif;
+    font-weight: regular;
+    
 
 }
