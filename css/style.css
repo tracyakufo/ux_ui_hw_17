@@ -1,51 +1,79 @@
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
+.topnav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-top: 10px;
+  
 }
-
-
 .logo {
-    width:23%;
+    width:50px;
+    height:50px;
+    order: 0;
+    flex:auto;
+    align-self: flex-start;
+
+}
+a {
     padding: 1%;
-    text-align: center;
+    color: #671449;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    vertical-align: middle;
+}
+.herospace {
+    display: flex;
+    flex-flow:row wrap;
+    border: red 1px solid;
+    justify-content:flex-start;
+}
+.heroimage {
+    display: flex;
+    flex-flow: column;
+    align-self: flex-start;
+    vertical-align: middle;
+    border: green 1px solid;
+    margin: 5px 50px 5px 50px;
+}
+.herotext {
+    display: flex;
+    flex-flow: column;
+    align-self: flex-end;
+    border: blue 1px solid;
+    margin: 10px -10px 40px 10px;
 }
 
-.mainLogo {
-    width:25%;
-    height:25%;
-}
-nav {
-    width: 73%;
-    padding: 1%;
-}
-
-ul {
-    width: 50%;
-    margin-left: auto;
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    color: #671449;
+    margin-bottom: -2%;
 }
 
-.heroImg {
-    height: 600px;
-    padding: 25px;
-}
-.headShot {
-    width: 50%;
-    height:50%;
-}
-.content {
-    width:500px;
-    margin: 0 auto;
+h2 {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size:20px;
+ font-weight:lighter;
+ color: #671449;
+ margin-bottom: -2%;
 }
 
-footer {
-  background-color: #373738;  
-  width: 73%;
-  padding: 1%;
-
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: normal;
+    color:#0D3442;
 }
 
-footer ul {
-    display:inline-block;
-    vertical-align: top;
-    padding: 1%;
+button {
+    color: white;
+    background-color: #671449;
+    height: 50px;
+    width: 200px;
+    border: none;
+    font-size: 20px;
+
 }
